@@ -6,10 +6,9 @@ public static void main (String [] args) {
     String terceiroNome = "Moura";
 
     String nomeCompleto = nomeCompleto(primeiroNome, segundoNome, terceiroNome);
-    System.out.println(nomeCompleto);
+    System.out.println(nomeCompleto);   //Utilizando o método para apresentar o nome
 
-
-    System.out.println("Sem método: " + primeiroNome.concat(" ").concat(segundoNome).concat(" ").concat(terceiroNome));
+    System.out.println("Sem método: " + primeiroNome.concat(" ").concat(segundoNome).concat(" ").concat(terceiroNome)); //Sem utilizar o método para apresentar o nome
 
 }
 
